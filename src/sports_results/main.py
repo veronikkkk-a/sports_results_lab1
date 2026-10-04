@@ -86,7 +86,7 @@ def main() -> None:
     new_record = create_athlete_record(id=7, name="Василь Ломаченко", sport_type="Бокс", result=95.0, category="Професіонали")
     print(f"   Запис створено через **kwargs: {new_record}")
 
-    # 9. Запуск бенчмаркінгу
+    # 9. Запуск бенчмаркінгу+++
     run_benchmark()
 
 if __name__ == "__main__":
