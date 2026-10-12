@@ -28,12 +28,12 @@ def validate_sports_records(rows: Iterable[dict[str, str]]) -> Iterator[SportRec
 
 def filter_by_sport_and_category(
     records: Iterable[SportRecord],
-    sport_filter: str | None = None,
+    sport: str | None = None,
     category_filter: str | None = None
 ) -> Iterator[SportRecord]:
     """Фільтрація записів за видом спорту та категорією."""
     for record in records:
-        if sport_filter and record.sport.lower() != sport_filter.lower():
+        if sport and record.sport.lower() != sport.lower():
             continue
         if category_filter and record.category.lower() != category_filter.lower():
             continue
