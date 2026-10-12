@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sports Streaming Pipeline
 
 Лабораторна робота №3 з дисципліни «Професійний Python».
@@ -11,3 +12,27 @@
 ## Запуск
 ```bash
 python -m sports_streaming.main
+=======
+# Sports Results Management System
+
+Навчальний проєкт з дисципліни «Професійний Python» (Варіант 9).
+
+## Опис
+Консольний застосунок для обліку спортивних результатів спортсменів, їх фільтрації за видами спорту, обчислення статистики та формування рейтингу.
+
+## Інсталяція та запуск
+
+```bash
+# Створення та активація віртуального середовища
+python -m venv .venv
+# Windows: .venv\Scripts\activate
+# Linux/macOS: source .venv/bin/activate
+
+# Режим редагованого встановлення
+pip install -e .
+
+# Запуск програми
+python -m sports_results.main
+# або через створену консольну команду:
+sports-results
+>>>>>>> 91bd28e3f2924d53375cbc59e36d72843cebc4f8
